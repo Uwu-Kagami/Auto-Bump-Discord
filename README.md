@@ -17,8 +17,7 @@ Un script Node.js pour bumper automatiquement un serveur Discord via des service
 
 ## 🚀 Fonctionnalités
 
-- Envoie automatiquement `!d bump` dans un salon spécifique
-- Bump toutes les 2 heures (modifiable)
+- Bump toutes les 2 heures + 15-20 minutes de delay random add pour ne pas se faire detecter. (modifiable)
 - Utilise un compte utilisateur *(selfbot)* ou bot selon l’implémentation
 - Configuration simple via fichier `.env`
 - Léger et facile à faire tourner en continu (VPS, terminal, etc.)
